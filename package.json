@@ -1,0 +1,27 @@
+{
+  "name": "bitzprice",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabianvelizok/bitzprice.git"
+  },
+  "keywords": [
+    "Next",
+    "React",
+    "ReactDom"
+  ],
+  "author": "Fabián Veliz <velizfabianhoracio@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
