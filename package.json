@@ -20,6 +20,7 @@
   "author": "Fabián Veliz <velizfabianhoracio@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "isomorphic-unfetch": "^2.0.0",
     "next": "^6.0.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
