@@ -1,7 +1,7 @@
 {
   "name": "bitzprice",
   "version": "0.1.0",
-  "description": "",
+  "description": "App to view Bitcoin price in different currencies.",
   "main": "index.js",
   "scripts": {
     "dev": "next",
