@@ -1,9 +1,12 @@
 import Fetch from 'isomorphic-unfetch';
 import Layout from '../components/Layout';
+import Prices from '../components/Prices';
 
 const Index = (props) => (
   <Layout>
     <h1>Welcome to Bitzprice!</h1>
+    <p>Check current Bitcoin rate</p>
+    <Prices bpi={props.bpi} />
   </Layout>
 );
 
