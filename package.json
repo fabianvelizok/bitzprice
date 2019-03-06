@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "cross-env NODE_ENV=production node server.js",
     "out": "next build && next export"
   },
   "repository": {
@@ -23,7 +23,11 @@
   "dependencies": {
     "isomorphic-unfetch": "^2.0.0",
     "next": "^6.0.3",
+    "next-offline": "^3.3.6",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
   }
 }
